@@ -1,3 +1,4 @@
+@import url('https://basehold.it/24');
 
 /* stylelint-disable */
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
@@ -10,22 +11,22 @@ html {
   background: #d3d6db;
   color: #222;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125em; /*18px/16px*/
+  line-height: 24px;  /*24px/18px*/
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 1.388888em;
   font-weight: 800;
   padding-top: 24px;
   padding-left: 24px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 1.3333em;
   padding-bottom: 24px;
 }
 h3{
-  font-size: 20px;
+  font-size: 1.1111em;
 }
 h2, h3, h4 {
   font-weight: 550;
@@ -37,7 +38,7 @@ ul {
   padding-left: 24px;
 }
 ul ul ul { padding-bottom: 0;}
-p + p { text-indent: 24px;}
+p + p { text-indent: 1.333em;}
 li li, .hobbies li {
   list-style-type: disc;
 }
