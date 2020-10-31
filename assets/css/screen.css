@@ -62,3 +62,8 @@ li li li {
   color: #222;
   padding: 12px 12px 30px 12px;
 }
+
+#content {
+  margin-top: 34px;   /* 34 = 168 - height of header - 24*/
+  margin-bottom: 24px;
+}
