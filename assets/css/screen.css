@@ -44,6 +44,10 @@ li li li {
   list-style-type: circle;
 }
 
+section, aside {
+  background: #dfe4e6;
+  margin-bottom: 12px;
+}
 #header {
   background: #a1b9ed;
   height: 110px;
