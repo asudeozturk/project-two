@@ -40,3 +40,10 @@ li li, .hobbies li {
 li li li {
   list-style-type: circle;
 }
+
+#navigation a {
+  display: block;
+  text-decoration: none;
+  color: #222;
+  padding: 12px 12px 30px 12px;
+}
