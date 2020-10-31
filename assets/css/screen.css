@@ -44,7 +44,18 @@ li li li {
   list-style-type: circle;
 }
 
-
+#header {
+  background: #a1b9ed;
+  height: 110px;
+}
+#about-page .current-page,
+#resume-page .current-page,
+#hobbies-page .current-page {
+  background: #ecd0aa;
+}
+#navigation .other-page:hover {
+  background: rgba(236,208,170,0.5);
+}
 #navigation a {
   display: block;
   text-decoration: none;
