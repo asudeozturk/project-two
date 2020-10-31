@@ -30,6 +30,9 @@ h3{
 h2, h3, h4 {
   font-weight: 550;
 }
+h1, h3, p, ul, figcaption,  #hobbies-page h2{
+  padding-bottom: 12px;
+}
 
 ul {
   padding-left: 24px;
@@ -40,6 +43,7 @@ li li, .hobbies li {
 li li li {
   list-style-type: circle;
 }
+
 
 #navigation a {
   display: block;
