@@ -90,3 +90,14 @@ li li li {
     margin-right: 0;
   }
 }
+
+@media screen and (min-width: 400px) {
+  #navigation{
+    margin-left: auto;
+    width: calc(50% + 150px );
+  }
+  #content {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+}
