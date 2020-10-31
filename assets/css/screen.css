@@ -33,24 +33,35 @@ h2, h3, h4 {
 h1, h3, p, ul, figcaption,  #hobbies-page h2{
   padding-bottom: 12px;
 }
-
 ul {
   padding-left: 24px;
 }
+ul ul ul { padding-bottom: 0;}
+p + p { text-indent: 24px;}
 li li, .hobbies li {
   list-style-type: disc;
 }
 li li li {
   list-style-type: circle;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  box-sizing: border-box;
+}
 section, aside {
   background: #dfe4e6;
   margin-bottom: 12px;
 }
+
+
 #header {
   background: #a1b9ed;
   height: 110px;
+}
+#content {
+  margin-top: 34px;   /* 34 = 168 - height of header - 24*/
+  margin-bottom: 24px;
 }
 #about-page .current-page,
 #resume-page .current-page,
@@ -65,16 +76,6 @@ section, aside {
   text-decoration: none;
   color: #222;
   padding: 12px 12px 30px 12px;
-}
-
-#content {
-  margin-top: 34px;   /* 34 = 168 - height of header - 24*/
-  margin-bottom: 24px;
-}
-img {
-  display: block;
-  max-width: 100%;
-  box-sizing: border-box;
 }
 
 @media screen and (min-width: 330px) {
@@ -117,10 +118,6 @@ img {
     width: 50%;
   }
 }
-
-ul ul ul { padding-bottom: 0;}
-p + p { text-indent: 24px;}
-
 
 @media screen and (min-width: 630px) {
   #content {
