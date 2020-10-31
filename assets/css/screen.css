@@ -94,6 +94,9 @@ img {
   #navigation li:last-child a {
     margin-right: 0;
   }
+  h1, footer p {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 400px) {
