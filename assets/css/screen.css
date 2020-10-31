@@ -67,6 +67,11 @@ li li li {
   margin-top: 34px;   /* 34 = 168 - height of header - 24*/
   margin-bottom: 24px;
 }
+img {
+  display: block;
+  max-width: 100%;
+  box-sizing: border-box;
+}
 
 @media screen and (min-width: 330px) {
   #navigation {
@@ -99,5 +104,8 @@ li li li {
   #content {
     margin-right: 24px;
     margin-left: 24px;
+  }
+  figure img {
+    width: 50%;
   }
 }
