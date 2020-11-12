@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
 @import url('#https://basehold.it/24');
 
 /* stylelint-disable */
@@ -6,13 +7,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/*
+  Baseline grid: 24px
+  Base font-size: 18px
+*/
+
 /*Base styles*/
 html {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 1.125em; /* 18px/16px */
+  line-height: 1.33333333em;  /* 24px/18px */
   background: #d3d6db;
   color: #222;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.125em; /*18px/16px*/
-  line-height: 24px;  /*24px/18px*/
 }
 
 h1 {
@@ -22,11 +28,11 @@ h1 {
   padding-left: 24px;
 }
 h2 {
-  font-size: 1.3333em;
+  font-size: 1.333333em;
   padding-bottom: 24px;
 }
 h3{
-  font-size: 1.1111em;
+  font-size: 1.111111em;
 }
 h2, h3, h4 {
   font-weight: 550;
