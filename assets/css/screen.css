@@ -58,6 +58,21 @@ section {
   margin-top: 1.33333333em;
 }
 
+@supports (display: grid) {
+  html { padding: 1.33333333em 0; }
+}
+body {
+  display: grid;
+  grid-template-columns: minmax(1.33333333em,1fr) minmax(min-content,60ch) minmax(1.33333333em,1fr);
+}
+#header,
+#navigation,
+#content,
+#footer,
+section {
+  grid-column: 2 / 3;
+}
+
 
 #header {
   background: #a1b9ed;
@@ -83,6 +98,8 @@ section {
   color: #222;
   padding: 0.666666667em;
 }
+
+
 
 @media screen and (min-width: 330px) {
   #navigation {
