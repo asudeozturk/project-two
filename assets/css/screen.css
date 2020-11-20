@@ -58,7 +58,9 @@ li li li {
 img {
   display: block;
   max-width: 100%;
-  box-sizing: border-box;
+}
+figcaption {
+
 }
 section, aside {
 
@@ -130,13 +132,20 @@ section {
   h1, footer p {
     text-align: center;
   }
+
+
 }
 
 
-@media screen and (min-width: 400px) {
-
-
-  figure img {
+@media screen and (min-width: 450px) {
+  img {
     width: 50%;
+    padding-left: 25%;
+    padding-bottom: 0.389944em;
   }
+  figcaption {
+    width: 50%;
+    padding-left: 25%;
+  }
+
 }
