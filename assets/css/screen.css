@@ -23,7 +23,7 @@ html {
 
 h1 {
   font-size: 1.388888em;
-  font-weight: 800;
+  font-weight: bold;
 }
 h2 {
   font-size: 1.333333em;
@@ -34,12 +34,20 @@ h3{
 h2, h3, h4 {
   font-weight: 550;
 }
-
+#about-page h2, #resume-page h2 {
+  padding-bottom: 1em;
+}
+#about-page p {
+  padding-bottom: 0.666666667em;
+}
+#hobbies-page p {
+  padding-bottom: 1.333333em;
+}
 #resume-page section ul, #hobbies-page article ul {
   padding-left: 1.333333em;
 }
 ul ul ul { padding-bottom: 0;}
-p + p { text-indent: 1.333em;}
+p + p { text-indent: 1.333333em;}
 li li, .hobbies li {
   list-style-type: disc;
 }
@@ -105,12 +113,7 @@ section {
   #navigation {
     display: flex;
   }
-  #navigation::after {
-    content: "";
-    display: block;
-    clear: both;
-    float: none;
-  }
+
   #navigation li {
     float: left;
     flex: 1 1 auto;
@@ -124,18 +127,9 @@ section {
 
 
 @media screen and (min-width: 400px) {
-  #navigation{
-    width: calc(50% + 150px );
-  }
+
 
   figure img {
     width: 50%;
   }
-}
-
-@media screen and (min-width: 630px) {
-
-}
-@media screen and (min-width: 950px) {
-
 }
