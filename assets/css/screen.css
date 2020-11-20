@@ -24,6 +24,7 @@ html {
 h1 {
   font-size: 1.388888em;
   font-weight: bold;
+  padding-bottom: 0.96em;
 }
 h2 {
   font-size: 1.333333em;
@@ -84,7 +85,7 @@ section {
 
 #header {
   background: #a1b9ed;
-  padding-bottom: 1.33333333em;
+  padding-top: 1.33333333em;
 }
 #content {
   margin-top: 1.33333333em;
@@ -108,16 +109,16 @@ section {
 }
 
 
-
 @media screen and (min-width: 330px) {
-  #navigation {
+  #navigation ul {
     display: flex;
+    
   }
 
   #navigation li {
-    float: left;
-    flex: 1 1 auto;
-    width: auto;
+
+    flex: 1 0 auto;
+    text-align: center;
   }
 
   h1, footer p {
