@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
-@import url('https://basehold.it/24');
+@import url('#https://basehold.it/24');
 
 /* stylelint-disable */
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
@@ -22,34 +22,34 @@ html {
 }
 
 h1 {
-  font-size: 1.388888em;
+  font-size: 1.388888em;  /* 25px/18px */
   font-weight: bold;
-  padding-bottom: 0.96em;
+  padding-bottom: 0.96em; /* 24px/25px */
 }
 h2 {
-  font-size: 1.333333em;
+  font-size: 1.333333em;  /* 24px/18px */
 }
 h3{
-  font-size: 1.111111em;
+  font-size: 1.111111em;  /* 20px/18px */
 }
 h2, h3, h4 {
   font-weight: 550;
 }
 #about-page h2, #resume-page h2 {
-  padding-bottom: 1em;
+  padding-bottom: 1em;    /* 18px/18px */
 }
 #about-page p {
-  padding-bottom: 0.666666667em;
+  padding-bottom: 0.666666667em; /* 12px/18px */
 }
 #hobbies-page p {
-  padding-bottom: 1.333333em;
+  padding-bottom: 1.333333em; /* 24px/18px */
 }
 #resume-page section ul, #hobbies-page article ul {
-  padding-left: 1.333333em;
+  padding-left: 1.333333em; /* 24px/18px */
 }
 ul ul ul { padding-bottom: 0;}
 p + p {
-   text-indent: 1.333333em;
+   text-indent: 1.333333em; /* 24px/18px */
 }
 li li, .hobbies li {
   list-style-type: disc;
@@ -60,25 +60,22 @@ li li li {
 img {
   display: block;
   max-width: 100%;
-  padding-bottom: 0.380em;
+  padding-bottom: 0.380em;  /* (14 full line - img height)-> (336px-304.891)/18px  */
 }
 .my-photo {
-  padding-bottom: 1.72827778em;
+  padding-bottom: 1.72827778em; /* (11 full line - img height)-> (264px-257.156)/18px  */
 }
 
 section {
-  margin-top: 1.33333333em;
+  margin-top: 1.33333333em; /* 24px/18px */
 }
-
-
-
 
 #header {
   background: #a1b9ed;
-  padding-top: 1.33333333em;
+  padding-top: 1.33333333em; /* 24px/18px */
 }
 #content {
-  margin-top: 1.33333333em;
+  margin-top: 1.33333333em; /* 24px/18px */
 
 }
 
@@ -101,19 +98,19 @@ section {
   display: block;
   text-decoration: none;
   color: #222;
-  padding: 0.666666667em;
+  padding: 0.666666667em; /* 12px/18px */
 }
 
 footer {
-  margin-top: 2.666666667em;
+  margin-top: 2.666666667em; /* 48px/18px */
 }
-@media screen and (min-width: 150px) {
+@media screen and (min-width: 9.375em) { /* 150px/16px */
   @supports (display: grid) {
-    html { padding: 1.33333333em 0; }
+    html { padding: 1.5em 0; } /* 24px/16px */
   }
   body {
     display: grid;
-    grid-template-columns: minmax(1.33333333em,1fr) minmax(min-content,60ch) minmax(1.33333333em,1fr);
+    grid-template-columns: minmax(1.5em,1fr) minmax(min-content,60ch) minmax(1.5em,1fr);
   }
   #header,
   #navigation,
@@ -123,7 +120,7 @@ footer {
     grid-column: 2 / 3;
   }
 }
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 20.625em) { /* 330px/16px */
   #navigation ul {
     display: flex;
 
@@ -143,7 +140,7 @@ footer {
 }
 
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 28.125em) { /* 450px/16px */
   img {
     width: 50%;
     padding-left: 25%;
