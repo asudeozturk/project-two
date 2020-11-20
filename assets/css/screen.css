@@ -17,7 +17,7 @@ html {
   font-family: "Rubik", "Arial", sans-serif;
   font-size: 1.125em; /* 18px/16px */
   line-height: 1.33333333em;  /* 24px/18px */
-  background: #d3d6db;
+  background: #f2f0f0;
   color: #222;
 }
 
@@ -61,7 +61,8 @@ img {
   box-sizing: border-box;
 }
 section, aside {
-  background: #dfe4e6;
+
+
 }
 section {
   margin-top: 1.33333333em;
@@ -89,6 +90,7 @@ section {
 }
 #content {
   margin-top: 1.33333333em;
+
 }
 
 
@@ -96,6 +98,10 @@ section {
 #resume-page .current-page,
 #hobbies-page .current-page {
   background: #ecd0aa;
+}
+#contact a {
+  color: #3a6fe0;
+  text-decoration: none;
 }
 #navigation .other-page:hover {
   background: rgba(236,208,170,0.5);
@@ -112,7 +118,7 @@ section {
 @media screen and (min-width: 330px) {
   #navigation ul {
     display: flex;
-    
+
   }
 
   #navigation li {
