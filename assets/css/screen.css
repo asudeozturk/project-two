@@ -48,7 +48,9 @@ h2, h3, h4 {
   padding-left: 1.333333em;
 }
 ul ul ul { padding-bottom: 0;}
-p + p { text-indent: 1.333333em;}
+p + p {
+   text-indent: 1.333333em;
+}
 li li, .hobbies li {
   list-style-type: disc;
 }
@@ -58,14 +60,12 @@ li li li {
 img {
   display: block;
   max-width: 100%;
+  padding-bottom: 0.380em;
 }
-figcaption {
-
+.my-photo {
+  padding-bottom: 1.72827778em;
 }
-section, aside {
 
-
-}
 section {
   margin-top: 1.33333333em;
 }
@@ -101,6 +101,7 @@ section {
 #hobbies-page .current-page {
   background: #ecd0aa;
 }
+
 #contact a {
   color: #3a6fe0;
   text-decoration: none;
@@ -116,6 +117,9 @@ section {
   padding: 0.666666667em;
 }
 
+footer {
+  margin-top: 2.666666667em;
+}
 
 @media screen and (min-width: 330px) {
   #navigation ul {
@@ -141,7 +145,6 @@ section {
   img {
     width: 50%;
     padding-left: 25%;
-    padding-bottom: 0.389944em;
   }
   figcaption {
     width: 50%;
